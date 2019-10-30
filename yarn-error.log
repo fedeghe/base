@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js add -D malta malta-header-comment
+
+PATH: 
+  /Users/federicoghedina/Library/Android/sdk/build-tools/23.0.1:/Users/federicoghedina/Library/Android/sdk/platform-tools:/Users/federicoghedina/Library/Android/sdk/emulator:/Users/federicoghedina/Library/Android/sdk/tools:/Users/federicoghedina/Library/Android/sdk/platform-tools:/Users/federicoghedina/.nvm/versions/node/v6.11.2:/usr/local/sbin:/usr/local/php5/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/federicoghedina/Library/Android/sdk/build-tools/23.0.1:/Users/federicoghedina/Library/Android/sdk/platform-tools:/Users/federicoghedina/Library/Android/sdk/emulator:/Users/federicoghedina/Library/Android/sdk/tools:/Users/federicoghedina/.nvm/versions/node/v6.11.2:/usr/local/sbin:/usr/local/php5/bin:/usr/local/mysql/bin:/Users/federicoghedina/bin:/Applications/nwjs-sdk-v0.24.4-osx-x64/nwjs.app/Contents/MacOS:/usr/local/Cellar/kafka/1.0.0/bin:/usr/local/mongodb/bin:/Users/federicoghedina/bin:/Applications/nwjs-sdk-v0.24.4-osx-x64/nwjs.app/Contents/MacOS:/usr/local/Cellar/kafka/1.0.0/bin:/usr/local/mongodb/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  8.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/federicoghedina/htdocs/base/package.json: Unexpected token } in JSON at position 176
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "base",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib"
+    },
+    "scripts": {
+      "test": "mocha",
+      "build": "malta build.json",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fedeghe/base.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fedeghe/base/issues"
+    },
+    "homepage": "https://github.com/fedeghe/base#readme",
+    "description": "",
+    "devDependencies": {
+      "mocha": "^4.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

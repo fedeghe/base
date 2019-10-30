@@ -1,0 +1,19 @@
+{
+	"NS" : "BASE",
+	"author" : {
+		"name" : "Federico",
+		"surname" : "Ghedina",
+		"email" : "federico.ghedina@gmail.com",
+		"full" : "$author.name$ $author.surname$ <$author.email$>"
+	},
+	"vendors" : {
+		"fontawesome" : "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+	},
+	"components" : {
+		"core" : {
+			"code" : true,
+			"extend" : true
+		}
+	},
+	"makeVars" : true
+}

@@ -1,0 +1,31 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "malta build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedeghe/base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedeghe/base/issues"
+  },
+  "homepage": "https://github.com/fedeghe/base#readme",
+  "description": "",
+  "devDependencies": {
+    "malta": "^3.9.16",
+    "malta-header-comment": "^1.0.5",
+    "malta-js-toolkit": "^1.0.11",
+    "malta-js-uglify": "^1.0.5",
+    "mocha": "^4.0.1"
+  }
+}
